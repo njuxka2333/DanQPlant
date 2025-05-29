@@ -3,7 +3,7 @@
 memory network (BLSTM). It was originally proposed by Quang and Xie in 2016 and is used to predict functional regions of DNA 
 sequences, especially in gene regulation tasks such as transcription factor binding sites and epigenetic marks.
 
-## Schematic Diagram
+## Model Structure
 
 <img width="189" alt="image" src="https://github.com/user-attachments/assets/7cfa9194-ddab-4457-b91c-a4a0f9f42abd" />
 
