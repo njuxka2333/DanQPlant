@@ -16,7 +16,7 @@ logging.info('test data loaded')
 test_x = np.array(testmat['testxdata'])
 test_y = np.array(testmat['testdata'])
 
-model = tf.keras.models.load_model('DanQ_bestmodel.hdf5')
+model = tf.keras.models.load_model('weights/DanQ_bestmodel.hdf5')
 logging.info('model loaded')
 
 # Prediction
