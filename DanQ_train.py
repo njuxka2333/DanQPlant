@@ -40,7 +40,7 @@ train_generator = DataGenerator(X_train, y_train, batch_size=batch_size, shuffle
 val_generator = DataGenerator(valid_x, valid_y, batch_size=batch_size, shuffle=True, normalize=True, augment_rc=True)
 
 # checkpointer
-checkpointer = ModelCheckpoint(filepath="DanQ_bestmodel.hdf5", verbose=1, save_best_only=True)
+checkpointer = ModelCheckpoint(filepath="weights/DanQ_bestmodel.hdf5", verbose=1, save_best_only=True)
 
 # earlystopper
 earlystopper = EarlyStopping(monitor='val_loss', patience=3, verbose=1)
